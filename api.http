@@ -1,0 +1,28 @@
+### Recuperar todas las peliculas
+GET http://localhost:1234/movies
+
+### Recuperar una película por id
+GET http://localhost:1234/movies/3
+
+### Recuperar todas las peliculas por un género
+GET http://localhost:1234/movies?genre=adventure
+
+### Crear una pelicula con POST
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "Title": "Una-Peli",
+    "genre": "Fight",
+    "Year": "1930",
+    "Runtime": "120 min",
+    "Poster": null
+}
+
+### Actualizar una película
+
+PATCH http://localhost:1234/movies/1
+Content-Type: application/json
+{
+    "Year": 1930
+}

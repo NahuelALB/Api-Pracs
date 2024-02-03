@@ -1,0 +1,24 @@
+# Ignorar directorio de dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de construcción de React
+/build
+
+# Ignorar archivos de construcción de Node.js
+/build
+/dist
+
+# Ignorar archivos de configuración específicos del entorno de desarrollo de React
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de caché y configuración de herramientas de desarrollo de React
+.cache/
+.eslintcache
+yarn-error.log
+
+# Ignorar archivos específicos de desarrollo de Express/Node.js
+*.log
+.env
